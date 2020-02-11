@@ -15,7 +15,7 @@ body {
 .key {
     width: 80px;
     height: 80px;
-    background-color: rgba(199, 238, 57, 0.61);
+    background-color: rgba(199, 238, 57, 0.41);
     text-align: center;
     /* line-height: 40px; */
     margin: 20px;
@@ -23,6 +23,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 3px 3px 10px rgb(172, 172, 172);
+    transition: .1s;
 }
 
 kbd {
@@ -33,4 +34,14 @@ kbd {
     text-shadow: 3px 3px 10px black;
     font-size: 30px;
     font-family: 'helvetica neue';
+}
+
+span {
+    font-family: 'helvetica neue';
+    color: rgb(255, 238, 0);
+}
+
+.playing {
+    transform: scale(1.2);
+    border: 10px solid rgba(255, 0, 157, 0.671);
 }
